@@ -8,6 +8,7 @@
 #ifndef FEM1D_FEMELEMENT_HPP_
 #define FEM1D_FEMELEMENT_HPP_
 #include <vector>
+#include <iostream>
 #include <array>
 #include <memory>
 #include <functional>
