@@ -26,7 +26,7 @@ main()
 	  AssembleMass massAssembler{apsc::NumericalIntegration::GaussLegendre2p{},1.0};
 	  std::cout << massAssembler(p1);
 	  std::cout << std::endl;
-	  std::cout << " Stiff\n";
+	  std::cout << " Stiffness\n";
 	  AssembleStiff stiffAssembler{apsc::NumericalIntegration::GaussLegendre2p{},1.0};
 	  std::cout << stiffAssembler(p1);
 	  std::cout << std::endl;
