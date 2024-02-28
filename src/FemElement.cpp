@@ -4,7 +4,9 @@ apsc::Fem1d::FemElement1D::LocalMatrix
 apsc::Fem1d::FemElement1D::mass(QuadRule const & quadRule) const
 {
   using namespace apsc::Fem1d;
-  // This is the class for the local matrix.
+
+  // A different comment
+
   FemElement1D::LocalMatrix m{nodes_.size(), nodes_.size()};
   for(std::size_t i = 0u; i < nodes_.size(); ++i)
     {
