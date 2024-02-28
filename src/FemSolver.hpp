@@ -27,6 +27,7 @@ namespace apsc::Fem1d
  */
 	class FemSolverSteady: public FemTraits
 	{
+	// A misplaced comment
 	public:
 		using SpMat=Eigen::SparseMatrix<double,Eigen::ColMajor>;
 		FemSolverSteady() = default;
